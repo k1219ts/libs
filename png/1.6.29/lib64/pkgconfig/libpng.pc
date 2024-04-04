@@ -1,0 +1,11 @@
+prefix=/backstage/libs/png/1.6.29
+exec_prefix=/backstage/libs/png/1.6.29
+libdir=/backstage/libs/png/1.6.29/lib64
+includedir=/backstage/libs/png/1.6.29/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.29
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

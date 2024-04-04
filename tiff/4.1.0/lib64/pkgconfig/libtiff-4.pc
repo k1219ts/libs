@@ -1,0 +1,11 @@
+prefix=/backstage/libs/tiff/4.1.0
+exec_prefix=/backstage/libs/tiff/4.1.0
+libdir=/backstage/libs/tiff/4.1.0/lib64
+includedir=/backstage/libs/tiff/4.1.0/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.1.0
+Libs: -L/backstage/libs/tiff/4.1.0/lib64 -ltiff
+Libs.private: 
+Cflags: -I/backstage/libs/tiff/4.1.0/include

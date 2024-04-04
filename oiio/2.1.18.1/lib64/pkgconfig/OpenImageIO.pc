@@ -1,0 +1,10 @@
+prefix=/backstage/libs/oiio/2.1.18.1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+
+Name: OpenImageIO
+Description: OpenImageIO is a library for reading and writing images.
+Version: 2.1.18.1
+Libs: -L${libdir} -lOpenImageIO 
+Cflags: -I${includedir}/OpenImageIO

@@ -1,0 +1,74 @@
+{
+    "default_patch_lock": "no_lock",
+    "rez_version": "2.47.13",
+    "package_requests": [
+        "python-2.7",
+        "cmake"
+    ],
+    "serialize_version": "4.3",
+    "resolved_packages": [
+        {
+            "variables": {
+                "index": null,
+                "version": "2.7",
+                "repository_type": "filesystem",
+                "location": "/WORK_DATA/develop/dcc/packages/ext",
+                "name": "pylibs"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.7.16",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "python"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.14.6",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "cmake"
+            },
+            "key": "filesystem.variant"
+        }
+    ],
+    "num_loaded_packages": 4,
+    "status": "solved",
+    "implicit_packages": [
+        "~platform==linux",
+        "~arch==x86_64",
+        "~os==CentOS-7.5.1804"
+    ],
+    "host": "sup-daeseok.chae",
+    "user": "daeseok.chae",
+    "package_filter": [],
+    "arch": "x86_64",
+    "solve_time": 0.0018951892852783203,
+    "building": true,
+    "requested_timestamp": null,
+    "parent_suite_path": null,
+    "suite_context_name": null,
+    "package_orderers": null,
+    "graph": "{'nodes': [((('fillcolor', '#AAFFAA'), ('fontsize', 10), ('style', 'filled')), [('_8', 'cmake-3.14.6[]'), ('_7', 'python-2.7.16[]'), ('_6', 'pylibs-2.7[]')]), ((('fillcolor', '#F6F6F6'), ('fontsize', 10), ('style', 'filled,dashed')), [('_9', 'pylibs-2.7')]), ((('fillcolor', '#FFFFAA'), ('fontsize', 10), ('style', 'filled,dashed')), [('_5', '~os==CentOS-7.5.1804'), ('_4', '~arch==x86_64'), ('_3', '~platform==linux'), ('_2', 'cmake'), ('_1', 'python-2.7')])], 'edges': [((('arrowsize', '0.5'),), [('_9', '_6'), ('_7', '_9'), ('_2', '_8'), ('_1', '_7')])]}",
+    "failure_description": null,
+    "created": 1605150437,
+    "package_paths": [
+        "/backstage/libs",
+        "/WORK_DATA/develop/dcc/packages/app",
+        "/WORK_DATA/develop/dcc/packages/ext"
+    ],
+    "platform": "linux",
+    "rez_path": "/opt/rez/lib/python2.7/site-packages/rez",
+    "patch_locks": {},
+    "from_cache": false,
+    "timestamp": 1605150437,
+    "caching": true,
+    "load_time": 0.0,
+    "os": "CentOS-7.5.1804"
+}

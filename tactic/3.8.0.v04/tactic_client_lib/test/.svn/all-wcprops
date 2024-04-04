@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/test
+END
+handler.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/test/handler.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/test/__init__.py
+END

@@ -1,0 +1,86 @@
+{
+    "default_patch_lock": "no_lock",
+    "rez_version": "2.47.13",
+    "package_requests": [
+        "gcc-6.3.1",
+        "cmake",
+        "python-2.7",
+        "boost-1.61.0"
+    ],
+    "serialize_version": "4.3",
+    "resolved_packages": [
+        {
+            "variables": {
+                "index": null,
+                "version": "6.3.1",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "gcc"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.14.6",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "cmake"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.7.16",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "python"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.61.0",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "boost"
+            },
+            "key": "filesystem.variant"
+        }
+    ],
+    "num_loaded_packages": 5,
+    "status": "solved",
+    "implicit_packages": [
+        "~platform==linux",
+        "~arch==x86_64",
+        "~os==CentOS-7.5.1804"
+    ],
+    "host": "sup-sanghun",
+    "user": "rmantd",
+    "package_filter": [],
+    "arch": "x86_64",
+    "solve_time": 0.001870870590209961,
+    "building": true,
+    "requested_timestamp": null,
+    "parent_suite_path": null,
+    "suite_context_name": null,
+    "package_orderers": null,
+    "graph": "{'nodes': [((('fillcolor', '#AAFFAA'), ('fontsize', 10), ('style', 'filled')), [('_9', 'cmake-3.14.6[]'), ('_8', 'gcc-6.3.1[]'), ('_11', 'boost-1.61.0[]'), ('_10', 'python-2.7.16[]')]), ((('fillcolor', '#FFFFAA'), ('fontsize', 10), ('style', 'filled,dashed')), [('_7', '~os==CentOS-7.5.1804'), ('_6', '~arch==x86_64'), ('_5', '~platform==linux'), ('_4', 'boost-1.61.0'), ('_3', 'python-2.7'), ('_2', 'cmake'), ('_1', 'gcc-6.3.1')])], 'edges': [((('arrowsize', '0.5'),), [('_4', '_11'), ('_3', '_10'), ('_2', '_9'), ('_1', '_8'), ('_11', '_3'), ('_11', '_1')])]}",
+    "failure_description": null,
+    "created": 1589188165,
+    "package_paths": [
+        "/backstage/libs",
+        "/WORK_DATA/Develop/apps/rez/RezDCC/packages/base",
+        "/WORK_DATA/Develop/apps/rez/RezDCC/packages/hfs"
+    ],
+    "platform": "linux",
+    "rez_path": "/opt/rez/lib/python2.7/site-packages/rez",
+    "patch_locks": {},
+    "from_cache": false,
+    "timestamp": 1589188165,
+    "caching": true,
+    "load_time": 0.0,
+    "os": "CentOS-7.5.1804"
+}

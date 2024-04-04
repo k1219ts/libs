@@ -1,0 +1,13 @@
+# draco pkg-config.
+prefix=/backstage/libs/draco/1.3.6
+exec_prefix=/backstage/libs/draco/1.3.6/bin
+libdir=/backstage/libs/draco/1.3.6/lib
+includedir=/backstage/libs/draco/1.3.6/include
+
+Name: Draco
+Description: 3D Compression.
+Version: 1.3.6
+Requires:
+Conflicts:
+Libs: -L/backstage/libs/draco/1.3.6/lib -ldraco
+Cflags: -I/backstage/libs/draco/1.3.6/include -std=c++11

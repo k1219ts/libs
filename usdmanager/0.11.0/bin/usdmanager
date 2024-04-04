@@ -1,0 +1,4 @@
+#!/backstage/libs/python/2.7.16/bin/python
+# EASY-INSTALL-SCRIPT: 'usdmanager==0.11.0','usdmanager'
+__requires__ = 'usdmanager==0.11.0'
+__import__('pkg_resources').run_script('usdmanager==0.11.0', 'usdmanager')

@@ -1,0 +1,11 @@
+prefix=/backstage/libs/ocio/2.0.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${exec_prefix}/include
+
+Name: OpenColorIO
+Version: 2.0.0
+Description: OpenColorIO (OCIO) is a complete color management solution
+URL: https://github.com/AcademySoftwareFoundation/OpenColorIO
+Libs: -L${libdir} -lOpenColorIO
+Cflags: -I${includedir}

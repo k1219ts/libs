@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/interpreter
+END
+callback.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/interpreter/callback.py
+END
+handler.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/interpreter/handler.py
+END
+examples.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/interpreter/examples.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/interpreter/__init__.py
+END
+interpreter.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/interpreter/interpreter.py
+END
+pipeline.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/interpreter/pipeline.py
+END

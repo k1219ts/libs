@@ -1,0 +1,204 @@
+{
+    "default_patch_lock": "no_lock",
+    "rez_version": "2.60.0",
+    "package_requests": [
+        "gcc-6.3.1",
+        "cmake",
+        "openexr-2.2.0",
+        "ocio-1.1.0",
+        "jpeg-1.5.3",
+        "png-1.6.29",
+        "tiff-4.1.0",
+        "zlib-1.2.11",
+        "boost-1.61.0",
+        "fmt-6.1.2",
+        "robin_map-0.6.2",
+        "pybind11-2.4.3"
+    ],
+    "serialize_version": "4.3",
+    "resolved_packages": [
+        {
+            "variables": {
+                "index": null,
+                "version": "6.3.1",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "gcc"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.14.6",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "cmake"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.2.0",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "ilmbase"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.2.0",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "openexr"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.7",
+                "repository_type": "filesystem",
+                "location": "/WORK_DATA/Develop/dcc/packages/ext",
+                "name": "pylibs"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.7.16",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "python"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "ocio"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.5.3",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "jpeg"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.6.29",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "png"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.11",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "zlib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "4.1.0",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "tiff"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.61.0",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "boost"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "6.1.2",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "fmt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.6.2",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "robin_map"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.4.3",
+                "repository_type": "filesystem",
+                "location": "/backstage/libs",
+                "name": "pybind11"
+            },
+            "key": "filesystem.variant"
+        }
+    ],
+    "num_loaded_packages": 16,
+    "status": "solved",
+    "implicit_packages": [
+        "~platform==linux",
+        "~arch==x86_64",
+        "~os==CentOS-7.8.2003"
+    ],
+    "host": "sup-sanghun.kim",
+    "user": "rmantd",
+    "package_filter": [],
+    "arch": "x86_64",
+    "solve_time": 0.009443044662475586,
+    "building": true,
+    "requested_timestamp": null,
+    "parent_suite_path": null,
+    "suite_context_name": null,
+    "package_orderers": null,
+    "graph": "{'nodes': [((('fillcolor', '#AAFFAA'), ('fontsize', 10), ('style', 'filled')), [('_28', 'fmt-6.1.2[]'), ('_29', 'robin_map-0.6.2[]'), ('_26', 'tiff-4.1.0[]'), ('_27', 'boost-1.61.0[]'), ('_24', 'png-1.6.29[]'), ('_25', 'zlib-1.2.11[]'), ('_22', 'ocio-1.1.0[]'), ('_23', 'jpeg-1.5.3[]'), ('_20', 'pylibs-2.7[]'), ('_21', 'python-2.7.16[]'), ('_17', 'cmake-3.14.6[]'), ('_16', 'gcc-6.3.1[]'), ('_30', 'pybind11-2.4.3[]'), ('_19', 'openexr-2.2.0[]'), ('_18', 'ilmbase-2.2.0[]')]), ((('fillcolor', '#F6F6F6'), ('fontsize', 10), ('style', 'filled,dashed')), [('_37', 'cmake-3.14.6'), ('_36', 'python-2.7'), ('_31', 'ilmbase-2.2.0'), ('_33', 'python-2.7.16'), ('_32', 'pylibs-2.7'), ('_35', 'zlib'), ('_34', 'jpeg')]), ((('fillcolor', '#FFFFAA'), ('fontsize', 10), ('style', 'filled,dashed')), [('_9', 'boost-1.61.0'), ('_8', 'zlib-1.2.11'), ('_7', 'tiff-4.1.0'), ('_6', 'png-1.6.29'), ('_5', 'jpeg-1.5.3'), ('_4', 'ocio-1.1.0'), ('_3', 'openexr-2.2.0'), ('_2', 'cmake'), ('_1', 'gcc-6.3.1'), ('_15', '~os==CentOS-7.8.2003'), ('_14', '~arch==x86_64'), ('_13', '~platform==linux'), ('_12', 'pybind11-2.4.3'), ('_11', 'robin_map-0.6.2'), ('_10', 'fmt-6.1.2')])], 'edges': [((('arrowhead', 'odot'), ('arrowsize', '1')), [('_36', '_33'), ('_2', '_37')]), ((('arrowsize', '0.5'),), [('_28', '_1'), ('_28', '_2'), ('_29', '_1'), ('_29', '_2'), ('_26', '_34'), ('_26', '_35'), ('_26', '_2'), ('_27', '_36'), ('_27', '_1'), ('_24', '_2'), ('_25', '_2'), ('_22', '_33'), ('_22', '_1'), ('_23', '_2'), ('_21', '_32'), ('_37', '_17'), ('_9', '_27'), ('_8', '_25'), ('_7', '_26'), ('_6', '_24'), ('_5', '_23'), ('_4', '_22'), ('_3', '_19'), ('_2', '_17'), ('_1', '_16'), ('_12', '_30'), ('_11', '_29'), ('_10', '_28'), ('_31', '_18'), ('_30', '_1'), ('_30', '_36'), ('_30', '_37'), ('_33', '_21'), ('_32', '_20'), ('_35', '_25'), ('_34', '_23'), ('_19', '_31'), ('_19', '_1'), ('_18', '_1')])]}",
+    "failure_description": null,
+    "created": 1598359282,
+    "package_paths": [
+        "/backstage/libs",
+        "/WORK_DATA/Develop/dcc/packages/app",
+        "/WORK_DATA/Develop/dcc/packages/ext"
+    ],
+    "platform": "linux",
+    "rez_path": "/opt/rez-2.60.0/lib/python2.7/site-packages/rez",
+    "patch_locks": {},
+    "from_cache": false,
+    "timestamp": 1598359282,
+    "caching": true,
+    "load_time": 0.0,
+    "os": "CentOS-7.8.2003"
+}

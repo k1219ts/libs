@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /backstage/libs/python/2.7.16/bin/python -m PyQt5.pyrcc_main ${1+"$@"}

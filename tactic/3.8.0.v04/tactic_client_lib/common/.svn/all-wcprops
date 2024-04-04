@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/common
+END
+common.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/common/common.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/common/__init__.py
+END
+upload_multipart.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/common/upload_multipart.py
+END

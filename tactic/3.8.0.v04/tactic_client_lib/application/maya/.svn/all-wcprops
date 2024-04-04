@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/application/maya
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/application/maya/__init__.py
+END
+maya_app.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/tactic-3.8/!svn/ver/2/trunk/src/client/tactic_client_lib/application/maya/maya_app.py
+END
